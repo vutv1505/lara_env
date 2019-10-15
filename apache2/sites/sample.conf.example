@@ -1,9 +1,9 @@
 <VirtualHost *:80>
-  ServerName sample.test
-  DocumentRoot /var/www/sample/public/
+  ServerName nakajimax.test
+  DocumentRoot /var/www/nakajimax/public/
   Options Indexes FollowSymLinks
 
-  <Directory "/var/www/sample/public/">
+  <Directory "/var/www/nakajimax/public/">
     AllowOverride All
     <IfVersion < 2.4>
       Allow from all
