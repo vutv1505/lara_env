@@ -220,4 +220,6 @@ RUN php -v | head -n 1 | grep -q "PHP ${PHP_VERSION}."
 RUN rm /var/cache/apk/* \
     && mkdir -p /var/www
 
+EXPOSE 9001
+
 WORKDIR /etc/supervisor/conf.d/
